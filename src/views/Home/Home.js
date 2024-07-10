@@ -11,7 +11,7 @@ function Home() {
                     title,
                     content,
                     founder,
-                    date,
+                    prize,
                     specification
                 } = blogobj;
                 return (
@@ -21,7 +21,7 @@ function Home() {
                         title={title}
                         content={content}
                         founder={founder}
-                        date={date}
+                        prize={prize}
                         specification={specification}
                     />
                 );

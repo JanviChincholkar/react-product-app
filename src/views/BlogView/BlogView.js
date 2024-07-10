@@ -9,10 +9,12 @@ function BlogView() {
       <div className="fullview">
        <h1 className="fulltitle">{selectedblogs.title}</h1>
        <marquee className="fullname">{selectedblogs. specification}</marquee>
-       <img className="fullavatar" src={selectedblogs.founder.avatar} alt="founder" />
-       <p className="fullname">{selectedblogs.founder.name}<br/>{selectedblogs.date}</p>
+       <img className="fullavatar" src={selectedblogs.founder.avatar}/>
+       <h3> Only At Just {selectedblogs.prize} </h3>
        <p className="fullcontent">{selectedblogs.content}</p>
-       
+       <button className="button">
+                Buy now
+            </button>
       </div>
     );
 }

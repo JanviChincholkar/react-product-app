@@ -1,28 +1,34 @@
 const blogs = [
     {
-        id: "SamsungGalaxyS21",
-        title: "Samsung Galaxy S21",
-        content: "Samsung Electronics, a global leader in technology, has consistently pushed the boundaries of innovation, particularly in the smartphone market. The Samsung Galaxy S21, released in January 2021, is a testament to Samsung's commitment to delivering high-quality, cutting-edge devices that cater to a diverse range of user needs.The Galaxy S21 boasts a sleek design with a 6.2-inch Dynamic AMOLED 2X display, offering vibrant colors and deep contrasts, which make for an immersive viewing experience. ",
-        founder: {
-            name: "8GB at Rs 70,000",
-            avatar: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVBgGblz8yM39_1100cJawmibXXieq1rtNkA&s"
+        id: "lipstick",
+        title: " Pink Shimmer Lipstick",
+        content: "Berry Glimmer - Shimmer Lipstick - Pink, Metallic Lipsticks | 4.2gms ",
+        founder: {         
+            avatar: "https://www.starstruckbysl.com/cdn/shop/files/BerryGlimmer_1120x.jpg?v=1711623282hHMJsv5SYZJ9W1gQSjyh24VNXwXg&usqp=CAU"
         },
-        specification:["less price"],
-        date: "January 29, 2021"
+        specification:["Matte's New Edition"],
+        prize : "399Rs"
     },
     {
-        id: "AppleiPhone13",
-        title: "Apple iPhone 13",
-        content: "Apple Inc. has long been a pioneer in the technology industry, setting benchmarks with its innovative products and seamless integration of hardware and software. The iPhone 13, launched in September 2021, continues this tradition by offering significant improvements over its predecessors while maintaining the premium quality that Apple is known for.The iPhone 13 features a stunning 6.1-inch Super Retina XDR display, which delivers bright and vibrant colors with remarkable clarity.",
+        id: "cc-cream",
+        title: "LAKMÉ 9 To 5 Cc Cream Mini",
+        content: "LAKMÉ 9 To 5 Cc Cream Mini|| 01-Beige|| Light Face Makeup With Natural Coverage For All Skin|| Spf 30-Tinted Moisturizer To Brighten Skin|| Conceal Dark Spots|| 9 G,1 Count",
         founder: {
-            name: "6GB at Rs 79,900",
-            avatar: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjSoJEQmvNjsKv7dCOZV_KRMseK_wTrRtLQA&s"
+            avatar: "https://m.media-amazon.com/images/I/31Qf+ZB1TuL._SY300_SX300_.jpg"
         },
-        specification:["unique featured"],
-        date: "September 14, 2021"
-    }
-    
-    
+        specification:["For Dry Skin "],
+       prize : "99Rs"
+    } ,  
+     {
+        id: "ctm-kit",
+        title: "Dot & Key CTM Kit",
+        content: "Gently exfoliates to reveal luminous skin Unclogs pores & controls excess sebum Tightens pores & improves skin texture Corrects pigmentation & dark spots Smooth, luminous skin ...",
+        founder: {
+            avatar: "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRUW56BXIZUTgheYiK5FPkLwD-dfKLr1WIkPLCFQVg8sBOMCEOWNL6qg2if0MNkLqdsdb8XZG14Uvh60bvDz2vGnE_7ChVvBXQNMc_f7w9QLA3AEho7_OiY&usqp=CAE"
+        },
+        specification:[" Available on 50% off"],
+       prize : "1,139Rs"
+    }   
 ];
 
 export default blogs;
